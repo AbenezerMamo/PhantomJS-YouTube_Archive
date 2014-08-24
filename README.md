@@ -7,7 +7,7 @@ Screenshot is generated after the script is run.
 Dependencies
 ========================
 
-PhantomJS : Any verision can be used. Add the PhantomJS Path in your system libraries if you're on  Windows.
+PhantomJS : Any verision can be used. Add the PhantomJS Path in your system enviroment if you're on Windows. Script will work on any platform PhantomJS is installed on.
 
 Running the script:
 ========================
