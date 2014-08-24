@@ -34,6 +34,8 @@ page.open("https://www.youtube.com/playlist?list=PLrEnWoR732-BHrPp_Pm8_VleD68f9s
                    var file_name = (day + "-" + month + "-" + year +"#" + hours + "-" + minutes+ suffix +".png");
                    console.log(file_name);
                    setTimeout(10000);
+                   //Sets the size of the screen which in turn will adjust the size of the screenshot produced.
+                   page.viewportSize = {width: 1280, height: 1024};
                    page.render(file_name);
                    console.log("YouTube homepage archive created.");
                    console.log("Exiting script...");
