@@ -7,9 +7,6 @@ Screenshot is generated after the script is run.
 Dependencies
 ========================
 
-In order to compile and use this script, the following dependencies are required:
-========================
-
 PhantomJS : Any verision can be used. Add the PhantomJS Path in your system libraries if you're on  Windows.
 
 Running the script:
